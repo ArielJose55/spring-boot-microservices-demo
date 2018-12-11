@@ -33,6 +33,8 @@ dependencies {
 	implementation('org.springframework.cloud:spring-cloud-starter-openfeign')
 	implementation('org.apache.camel:camel-spring-boot-starter:2.21.0')
 	implementation('org.apache.camel:camel-http4:2.21.0')
+	//implementation('io.springfox:springfox-swagger2:2.7.0')
+	//implementation('io.springfox:springfox-swagger-iu:2.7.0')
 	runtimeOnly('org.springframework.boot:spring-boot-devtools')
 	runtimeOnly('com.h2database:h2')
 	testImplementation('org.springframework.boot:spring-boot-starter-test')
